@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do list</title>
+    <link rel="stylesheet" href="resetcss.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div id="cores">
+        <button class="quadrados azul" onclick="ficaAzul()"></button>
+        <button class="quadrados vermelho" onclick="ficaVermelho()"></button>
+        <button class="quadrados amarelo" onclick="ficaAmarelo()" ></button>
+        <button class="quadrados verde" onclick="ficaVerde()"></button>
+
+    </div>
+
+    <header>
+        <h1>To do list</h1>
+    </header>
+
+    <section>
+        <input type="button" class="button" value="Adicionar tarefa" onclick="add()">
+        <input type="text" class="tarefa" placeholder="Insira a tarefa aqui">
+
+        <div id="lista">
+
+        </div>
+    </section>
+
+
+    <script src="todo.js"></script>
+</body>
+</html>
